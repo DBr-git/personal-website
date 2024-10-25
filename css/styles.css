@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+.navlink {
+  border-left: solid 2px;
+}
+
+.navlink a:link {
+  color: #e34f26;
+  text-decoration: none;
+}
+
+.navlink a:visited {
+  color: #e34f26;
+}
+
+.navlink a:hover {
+  text-decoration: underline;
+  text-shadow: 5px black;
+}
+
+#menu {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+  border: solid 2px;
+}
