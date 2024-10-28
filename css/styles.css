@@ -7,10 +7,6 @@ ul {
   list-style: none;
 }
 
-.navlink {
-  border-left: solid 2px;
-}
-
 .navlink a:link {
   color: #e34f26;
   text-decoration: none;
